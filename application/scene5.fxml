@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="609.0" prefWidth="789.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.scene5Controller">
+   <children>
+      <ImageView fitHeight="337.0" fitWidth="215.0" layoutX="98.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Users/LOOK/Desktop/view%20student.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="viewstudentBtn" layoutX="384.0" layoutY="279.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="277.0" text="View Student Details">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="logoutBtn" layoutX="472.0" layoutY="428.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="101.0" text="Logout">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="-65.0" layoutY="42.0" prefHeight="100.0" prefWidth="670.0" text="         Admin Module">
+         <font>
+            <Font name="System Bold Italic" size="68.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="792.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.scene6Controller">
+   <children>
+      <Label layoutX="22.0" layoutY="-15.0" prefHeight="185.0" prefWidth="704.0" text=" Student Module">
+         <font>
+            <Font name="System Bold Italic" size="92.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="329.0" layoutX="257.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Users/LOOK/Desktop/studentview.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="studentlogoutBtn" layoutX="549.0" layoutY="490.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="159.0" text="Logout">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="-4.0" layoutY="300.0" prefHeight="47.0" prefWidth="757.0" text="        Enter Your Registration number for Seeing Your Details..">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf1" layoutX="220.0" layoutY="362.0" prefHeight="20.0" prefWidth="278.0" />
+      <Button fx:id="studsubmitBtn" layoutX="283.0" layoutY="402.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="153.0" text="Submit">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

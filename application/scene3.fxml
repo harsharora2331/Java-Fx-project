@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="952.0" style="-fx-background-color: gry;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.scene3Controller">
+   <children>
+      <AnchorPane fx:id="submit_signupBtn" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="664.0" fitWidth="952.0" layoutX="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Users/LOOK/Desktop/signup.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="label1" layoutX="87.0" prefHeight="58.0" prefWidth="671.0" text="        Welcome to SignUp Page" textFill="#c91818">
+               <font>
+                  <Font name="System Bold Italic" size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="label2" layoutX="177.0" layoutY="92.0" prefHeight="49.0" prefWidth="198.0" text="First Name :" textFill="#eb0a0a">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Label>
+            <Label fx:id="label3" layoutX="177.0" layoutY="190.0" prefHeight="49.0" prefWidth="190.0" text="Last Name :" textFill="#ee0404">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Label>
+            <Label fx:id="label5" layoutX="201.0" layoutY="364.0" prefHeight="49.0" prefWidth="120.0" text="Email :" textFill="#eb0404">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Label>
+            <Label fx:id="label6" layoutX="177.0" layoutY="460.0" prefHeight="49.0" prefWidth="175.0" text="Password :" textFill="#e80000">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf1" layoutX="88.0" layoutY="152.0" prefHeight="25.0" prefWidth="328.0" />
+            <TextField fx:id="tf2" layoutX="88.0" layoutY="245.0" prefHeight="25.0" prefWidth="328.0" />
+            <TextField fx:id="tf4" layoutX="85.0" layoutY="424.0" prefHeight="25.0" prefWidth="328.0" />
+            <PasswordField fx:id="pf1" layoutX="85.0" layoutY="509.0" prefHeight="25.0" prefWidth="334.0" />
+            <Button fx:id="submitBtn" layoutX="182.0" layoutY="557.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="79.0" text="Submit" />
+            <Label layoutX="142.0" layoutY="283.0" prefHeight="49.0" prefWidth="269.0" text="      Contact" textFill="#f80606">
+               <font>
+                  <Font name="System Bold Italic" size="33.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf3" layoutX="88.0" layoutY="332.0" prefHeight="25.0" prefWidth="328.0" />
+            <Button fx:id="hmBtn" layoutX="784.0" layoutY="17.0" mnemonicParsing="false" text="Home" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
